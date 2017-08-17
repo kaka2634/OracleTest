@@ -53,7 +53,7 @@ sql>select * from v$logfile;
 ```
 4. swingbench结束
 
-       剪切home/oracle目录下的7张图片到新建的文件夹中
+剪切home/oracle目录下的7张图片到新建的文件夹中
 
 5. 建立awr文件
 
@@ -97,14 +97,15 @@ sql>startup pfile='/home/oracle/new.ora';
  
  
 3. 建立archive log 
- 
+
 参考: [https://balaoracledba.com/2013/12/05/rac-enable-archive-log-configure-to-asm-location/](https://balaoracledba.com/2013/12/05/rac-enable-archive-log-configure-to-asm-location/)
- 
+
 路径为+LOG/ORCL/ARCHIVELOG
  
 
 4. 关闭archivelog
 
 参考:[http://www.cnblogs.com/xwdreamer/p/3793792.html](http://www.cnblogs.com/xwdreamer/p/3793792.html)
- 
+
+
 *注意:Oracle 要在运行时才能删除database*
