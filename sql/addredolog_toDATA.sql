@@ -1,0 +1,10 @@
+alter database add logfile group 1 ('+DATA') size 1g;
+alter database add logfile group 2 ('+DATA') size 1g;
+alter database add logfile group 3 ('+DATA') size 1g;
+alter system switch logfile;
+alter system switch logfile;
+alter system switch logfile;
+alter system checkpoint;
+alter database drop logfile group 4;
+alter database drop logfile group 5;
+alter database drop logfile group 6;
